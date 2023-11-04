@@ -1,5 +1,5 @@
 {
     "name": "LG Hombot Vacuum Cleaner",
     "domains": ["vacuum"],
-    "homeassistant": "0.108.0"
+    "homeassistant": "2022.8.0"
 }

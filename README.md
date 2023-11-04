@@ -15,24 +15,7 @@ Manual: copy `custom_components/lg_hombot` folder into your `custom_components`.
 
 ## Configuration
 ```
-vacuum:
-  - platform: lg_hombot
-    host: your_hombot_ip_address
-    port: 6260
-
-sensor:
-  - platform: template
-    sensors:
-      hombot_battery:
-        friendly_name: Battery
-        entity_id: vacuum.hombot
-        unit_of_measurement: '%'
-        value_template: "{{ states.vacuum.hombot.attributes.battery_level }}"
-        icon_template: "{{ states.vacuum.hombot.attributes.battery_icon }}"
-      hombot_status:
-        friendly_name: Status
-        entity_id: vacuum.hombot
-        value_template: "{{ states.vacuum.hombot.attributes.status }}"
+just add IP from UI
 ```
 
 ## Lovelace card

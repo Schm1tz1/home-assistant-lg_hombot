@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fe3c4ca2-66c4-4c68-9a83-fabc8019ae50" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom_components/lg_hombot/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/custom_components/lg_hombot/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom_components/lg_hombot/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/custom_components/lg_hombot/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom_components/lg_hombot/vacuum.py" beforeDir="false" afterPath="$PROJECT_DIR$/custom_components/lg_hombot/vacuum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hacs.json" beforeDir="false" afterPath="$PROJECT_DIR$/hacs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/info.md" beforeDir="false" afterPath="$PROJECT_DIR$/info.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2XiQ5N9n9ARthfhq2Uf5YuF07vU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/chepa/Desktop/lg_hombot"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe3c4ca2-66c4-4c68-9a83-fabc8019ae50" name="Changes" comment="" />
+      <created>1699109235918</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699109235918</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

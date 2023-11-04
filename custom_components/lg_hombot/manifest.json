@@ -1,10 +1,11 @@
 {
     "domain": "lg_hombot",
     "name": "LG Hombot Vacuum Cleaner",
-    "documentation": "https://github.com/ericpignet/home-assistant-lg_hombot",
-    "requirements": [],
+    "documentation": "https://github.com/chepa92/home-assistant-lg_hombot",
+    "requirements": ["gidgethub[aiohttp]"],
     "dependencies": [],
-    "codeowners": ["@ericpignet"],
-    "version": "v1.1.0"
+    "codeowners": ["@chepa92"],
+    "iot_class": "local_polling",
+    "config_flow": true,
+    "version": "v2"
   }
-  
