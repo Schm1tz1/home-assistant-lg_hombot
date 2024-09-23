@@ -65,8 +65,8 @@ PLATFORM_SCHEMA = PLATFORM_SCHEMA.extend({
 }, extra=vol.ALLOW_EXTRA)
 
 # Commonly supported features
-SUPPORT_HOMBOT = VacuumEntityFeature.BATTERY | VacuumEntityFeature.PAUSE | VacuumEntityFeature.RETURN_HOME | \
-                 VacuumEntityFeature.SEND_COMMAND | VacuumEntityFeature.STATUS | VacuumEntityFeature.STOP | \
+SUPPORT_HOMBOT = VacuumEntityFeature.BATTERY | VacuumEntityFeature.START| VacuumEntityFeature.PAUSE | \
+                 VacuumEntityFeature.RETURN_HOME | VacuumEntityFeature.SEND_COMMAND | VacuumEntityFeature.STATUS | VacuumEntityFeature.STOP | \
                  VacuumEntityFeature.TURN_OFF | VacuumEntityFeature.TURN_ON | VacuumEntityFeature.FAN_SPEED
 
 async def async_setup_entry(hass, entry, async_add_devices):
@@ -180,6 +180,10 @@ class HombotVacuum(StateVacuumEntity):
     async def async_turn_off(self, **kwargs):
         """Turn the vacuum off and return to home."""
         await self.async_return_to_base()
+
+    async def async_start(self, **kwargs):
+        """Start the vacuum cleaner."""
+        await self.async_turn_on()
 
     async def async_stop(self, **kwargs):
         """Stop the vacuum cleaner."""
